@@ -1,0 +1,111 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* signup-page */
+.signup-page {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  border-radius: 10px;
+}
+.signup-page form {
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .signup-page {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+.signup-page form input {
+  color: #242424;
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 1px solid rgba(192, 192, 192, 0.796);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+@media screen and (max-width: 500px) {
+  .signup-page form input {
+    padding: 15px 15px;
+  }
+}
+.signup-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+.signup-alt button {
+  padding: 0;
+  background-color: transparent;
+  color: #2f63ff;
+  margin-left: 0.1rem;
+}
+/* signup-page */
+
+/* POPUPS */
+.empty-values {
+  font-size: 14px;
+  padding: 1rem;
+  background-color: white;
+  border-top: 7px solid red;
+  border-radius: 10px;
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+@media screen and (max-width: 500px) {
+  .empty-values {
+    right: 1rem;
+    top: 3rem;
+  }
+}
+/* POPUPS */
+
+/* DASHBOARD */
+.dashboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(105, 181, 248);
+  color: black;
+  overflow: hidden;
+  box-shadow: 2px 0 2px black;
+}
+.dashboard p {
+  padding: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+.dashboard-msg {
+  color: #4471f9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+/* DASHBOARD */
+
+/* LOADER */
+.loader {
+  color: #3e6dfd;
+  font-size: 20px;
+}
+/* LOADER */
